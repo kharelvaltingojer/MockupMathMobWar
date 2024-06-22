@@ -1,2 +1,2 @@
 # MockupMathMobWar
-3D Math runner in unity
+The project is at develop branch

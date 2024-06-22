@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1357482485894902418
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7790662568328449663}
+  - component: {fileID: 8837997032334756981}
+  m_Layer: 0
+  m_Name: SpawnerManager-not-assigned-to-math-panel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7790662568328449663
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1357482485894902418}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8837997032334756981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1357482485894902418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 064151adad1e89b41b75664653520665, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isBoss: 0
+  mathPanelInfo: {fileID: 0}
+  availablePower: 0
+  spawnCommon: {fileID: 273275622211067929, guid: a111c6b1cd366224e9d86472acb4a089, type: 3}
+  spawnNormal: {fileID: 273275622211067929, guid: 8daa93c6326f2324c812670f63d128fb, type: 3}
+  spawnRare: {fileID: 273275622211067929, guid: 3a39dd89ef261cd4380bb1374b15aaa7, type: 3}
+  spawnEpic: {fileID: 273275622211067929, guid: b7834689eed025a41ac5b62f876e1f1e, type: 3}
+  spawnMiniBoss: {fileID: 273275622211067929, guid: 3e26cf96ac22c914ca59971f207a0f3b, type: 3}
+  spawnBoss: {fileID: 273275622211067929, guid: 82c2bfd771c744f47a66698c30959542, type: 3}
+  spawnPrize: {fileID: 6453098711887490283, guid: 276e9cfe3abd57e4e976f02b09373015, type: 3}
